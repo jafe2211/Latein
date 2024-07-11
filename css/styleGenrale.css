@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+.Nav_Toggle{
+    padding-top: 10px;
+}
+.Nav{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+.Nav_Logo{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.Nav_Ul{
+    display: flex;
+    margin: 0px;
+}
+.Nav_Item{
+    height: 100%;
+    padding: 30px;
+    list-style-type: none;
+    border-bottom: 4px solid rgb(41, 42, 42);
+}
+.Nav_Item:hover{
+    border-bottom: 4px solid rgb(252, 74, 3);
+}
+.Nav_A{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.Nav_A:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+body{
+ background-color: rgb(58, 58, 58);
+}
+.toggle-button{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 23px;
+}
+.toggle-button .bar{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+}
+/*.card{
+    background-color: rgb(42, 42, 42);
+    margin-top: 100px;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    min-width: 500px;
+    max-width: 600px;
+    border-radius: 25px;
+    box-shadow: 5px solid black;
+}
+
+.card-body{
+    padding: 35px;
+    font-size: large;
+}
+.card-Title{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.card-des{
+    padding-top: 10px;
+}
+
+**/
+@media(max-width:1000px) {
+}

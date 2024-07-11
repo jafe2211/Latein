@@ -1,0 +1,14 @@
+Registration Errors
+0= Alle Felder Leer
+1= Name Leer
+2= Password Leer
+3= Email Leer
+4= User existiert
+5= Unbekannter Fehler
+
+Login Error
+0= Alle Felder Leer
+1= Name Leer
+2= Password Leer
+3= Password/Name Falsch
+4= Bitte Loge dich ein

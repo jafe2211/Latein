@@ -1,0 +1,26 @@
+#error {
+  background: linear-gradient(to left, rgb(255, 0, 0), rgb(120, 0, 0));
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.304);
+  color: #ffffff;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.reg{
+  float: left;
+  text-decoration: none;
+}
+
+@media(max-width: 1080px) {
+  #error{
+    background: #ff0000d1;
+    color: #ffffff;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 100px;
+  }
+}
